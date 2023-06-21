@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-holaa amigo
-=======
-holaaa mundo
-
-
-
-como estas
->>>>>>> 14b88f31d403d3d4f51fc0df7f40f23d83c63d9a
