@@ -1,6 +1,10 @@
 class busqueda:
     def __init__(self,buscar):
         self.buscar = buscar 
+def setBuscar(self,buscar):
+    self.buscar = buscar
+def getBuscar(self):
+    return self.buscar
 
 def buscar_oferta():
     pass
