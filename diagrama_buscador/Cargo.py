@@ -1,6 +1,6 @@
 class Cargo:
-    def __init__ (self,COUC,tiempo,contrato,lugar,vacantes,postulante,fecha,cierre):
-        self.__COUC=COUC
+    def __init__ (self,couc,tiempo,contrato,lugar,vacantes,postulante,fecha,cierre):
+        self.__couc=couc
         self.__tiempo=tiempo
         self.__contrato=contrato
         self.__lugar=lugar
@@ -8,7 +8,7 @@ class Cargo:
         self.__postulante=postulante
         self.__fecha=fecha
         self.__cierre=cierre
-        COUC=[]
+        couc=[]
     def setTiempo(self,tiempo):
         self.__tiempo=tiempo
     def getTiempo(self):
