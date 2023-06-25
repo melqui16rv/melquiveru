@@ -38,44 +38,5 @@ class Cargo:
     def getCierre(self):
         return self.__cierre
     
-    
-    def Tiempo(self):
-        TiempoExperiencia=int(input("digite cuantos años de experiencia tiene"))
-        return TiempoExperiencia
-      
-    def Tcontrato(self,contrato):
-        c=input("digite el cargo al que quiere aplicar")
-        if c in contrato:
-            print("cuantos años de experiencia a tenido con ese cargo")
-            ca=input()
-        else:
-            print("ese cargo alegido ya esta ocupado")
-    def Lugar(self):
-        l=["soacha","cauca","boyaca","manizales","arauca"]
-        lugar=input("que hubicacion desea buscar")
-        if l in lugar:
-            print("continue con su postulacion")
-        else:
-            print("ese hubicacion no esta disponible")
-    def menu(self):
-        while True:
-            print("1.Ingrese la experiencia laboral")
-            print("2.Ingrese el tipo de contrato a aplicar")
-            print("3.Elija un lugar donde desea trabajar")
-            print("4.Salir")
-        
-            eleccion= input("digite su eleccion:")  
-           
-            if eleccion == "1":
-                TiempoExperiencia
-            elif eleccion =="2":
-            
-            elif eleccion =="3":
-                
-            elif eleccion =="4":
-                break
-            else:
-                print ("la seleccion marcada no corresponde intentelo de nuevo")
-    
 
 
