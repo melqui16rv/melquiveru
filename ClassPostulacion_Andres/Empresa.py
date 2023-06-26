@@ -1,9 +1,9 @@
 Class Empresa:
 
-def __init__(self,nombre,Id_Empresa,RUT):
+def __init__(self,nombre,Id_Empresa,rut):
         self.nombre = nombre
         self.Id_Empresa = Id_Empresa
-        self.RUT = RUT
+        self.rut = rut
        
 
 def setNombre (self, nombre):
@@ -16,10 +16,10 @@ def setId_persona (self,Id_Empresa):
 def getId_persona(self):
     return self.__Id_Empresa
 
-def setRUT(self,RUT):
-    self.__RUT= RUT
-def getRUT (self):
-    return self.__RUT
+def setrut(self,rut):
+    self.__rut= rut
+def getrut (self):
+    return self.__rut
 
 def Publicar_cargo (self):
     Publicar_cargo = input("ingrese el cargo que quiere publicar")
@@ -28,7 +28,7 @@ def seleccionar_individuo (self):
     seleccionar_individuo = input ("seleccione el individuo")
 
 def cerrar_cargo (self):
-    print("Se cierra el cargo")
+    cerrar_cargo = input ("Se cierra el cargo")
  
 
        
